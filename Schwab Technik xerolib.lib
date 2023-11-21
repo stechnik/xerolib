@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<tapps classname="TaDocument" main="1622235485607845" mayEdit="true">
+    <title>Schwab Technik</title>
+    <desc></desc>
+    <version>1.0.15</version>
+    <purpose>lib</purpose>
+    <libraryname>Schwab Technik</libraryname>
+    <o classname="TaDrawing" rootobject="1622235474828423" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_cameleonrefs">
+        <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+        <title>top</title>
+        <desc></desc>
+        <drawing>
+            <o classname="a2dCanvasObject" id="1622235474828423">
+                <o classname="a2dCameleon" id="1622235485607845" name="outsideUVR"
+                     transform="translate( 50 1049 )"
+                     appearances="1622235485607846" isMultiRef="true" isTemplate="false" drawingId="a2dDrawingId_noId">
+                    <appearances>
+                        <o classname="TaDrawing" id="1622235485607846" rootobject="1622235485607855" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_appearances">
+                            <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                            <title>outsideUVR</title>
+                            <desc></desc>
+                            <drawing>
+                                <o classname="a2dCanvasObject" id="1622235485607855">
+                                    <o classname="a2dDiagram"
+                                         transform="translate( 0 50 )"
+                                         drawing="1622235485607862">
+                                        
+                                        <properties>
+                                            <o classname="a2dStringProperty" name="Name" value="The outside world">
+                                            </o>
+                                        </properties>
+                                        
+                                        <drawing>
+                                            <o classname="TaDrawing" id="1622235485607862" rootobject="1622235485607871" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_physical">
+                                                <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                <title>outsideUVR</title>
+                                                <desc></desc>
+                                                <drawing>
+                                                    <o classname="a2dCanvasObject" id="1622235485607871">
+                                                    </o>
+                                                </drawing>
+                                                
+                                                <properties>
+                                                    <o classname="a2dStringProperty" name="Name" value="outsideUVR">
+                                                    </o>
+                                                </properties>
+                                                
+                                            </o>
+                                        </drawing>
+                                    </o>
+                                </o>
+                            </drawing>
+                            
+                            <properties>
+                                <o classname="a2dStringProperty" name="Name" value="outsideUVR">
+                                </o>
+                            </properties>
+                            
+                        </o>
+                    </appearances>
+                </o>
+                <o classname="a2dCameleon" name="Sättigungsdampfdruck H2O"
+                     transform="translate( 3051 1049 )"
+                     appearances="1697382847087474" isMultiRef="true" isTemplate="true" drawingId="a2dDrawingId_physical">
+                    <appearances>
+                        <o classname="TaDrawing" id="1697382847087474" rootobject="1697382847087483" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_appearances">
+                            <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                            <title></title>
+                            <desc></desc>
+                            <drawing>
+                                <o classname="a2dCanvasObject" id="1697382847087483">
+                                    <o classname="a2dDiagram" drawing="1697382847087489">
+                                        <drawing>
+                                            <o classname="TaDrawing" id="1697382847087489" rootobject="1697382847087498" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_physical">
+                                                <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                <title></title>
+                                                <desc></desc>
+                                                <drawing>
+                                                    <o classname="a2dCanvasObject" id="1697382847087498">
+                                                        <o classname="UVR16x2" flags=" visible(0) fixedStyle" drawing="1697382847093481">
+                                                            <uvr block="BDBListe">
+                                                                <bdb name="bdb0" text="Sättigungsdampfdruck"/>
+                                                            </uvr>
+                                                            <uvr block="CAN">
+                                                            </uvr>
+                                                            <uvr block="DL">
+                                                            </uvr>
+                                                            <uvr block="Eingaenge">
+                                                            </uvr>
+                                                            <uvr block="Ausgaenge">
+                                                            </uvr>
+                                                            <uvr block="Fixwerte">
+                                                            </uvr>
+                                                            
+                                                            <properties>
+                                                                <o classname="a2dStringProperty" name="Name" value="UVR16x2">
+                                                                </o>
+                                                            </properties>
+                                                            
+                                                            <o classname="FunkInPin" id="1700387222702484" name="S1">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702486" name="S2">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702488" name="S3">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702501" name="S4">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702503" name="S5">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702505" name="S6">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702507" name="S7">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702509" name="S8">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702523" name="S9">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702525" name="S10">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702527" name="S11">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702529" name="S12">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702531" name="S13">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702533" name="S14">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702545" name="S15">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700387222702547" name="S16">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222702549" name="O1">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222702551" name="O2">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222702553" name="O3">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222702567" name="O4">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703473" name="O5">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703475" name="O6">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703477" name="O7">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703479" name="O8">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703481" name="O9">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703493" name="O10">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703495" name="O11">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703497" name="O12">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703499" name="O13">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703501" name="O14">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703509" name="O15">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1700387222703511" name="O16">
+                                                            </o>
+                                                            <drawing>
+                                                                <o classname="TaDrawing" id="1697382847093481" rootobject="1697382847093490" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_Uvr16x2">
+                                                                    <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                                    <title>UVR Diagram</title>
+                                                                    <desc></desc>
+                                                                    <drawing>
+                                                                        <o classname="a2dCanvasObject" id="1697382847093490">
+                                                                            <o classname="u16x2FunkKennlin2d" id="1697382847093527" flags=" fixedStyle"
+                                                                                 transform="translate( 92.5 0 )"
+                                                                                 typ="44" fid="0" nr="1" bgrp="1" bnr="0" bidx="0">
+                                                                                <o classname="TacoPin" id="1700387222703547" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700387222704484" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700387222704486" name="EVx">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700387222704488" name="Erg">
+                                                                                </o>
+                                                                                <wert name="FktGrX" val="4"/>
+                                                                                <wert name="FktGrY" val="35"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVx" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                                <wert name="Anz" val="120"/>
+                                                                                <wa name="x">
+                                                                                    <wert name="x1" val="-252"/>
+                                                                                    <wert name="x2" val="-246"/>
+                                                                                    <wert name="x3" val="-239"/>
+                                                                                    <wert name="x4" val="-233"/>
+                                                                                    <wert name="x5" val="-227"/>
+                                                                                    <wert name="x6" val="-221"/>
+                                                                                    <wert name="x7" val="-214"/>
+                                                                                    <wert name="x8" val="-208"/>
+                                                                                    <wert name="x9" val="-202"/>
+                                                                                    <wert name="x10" val="-195"/>
+                                                                                    <wert name="x11" val="-189"/>
+                                                                                    <wert name="x12" val="-183"/>
+                                                                                    <wert name="x13" val="-176"/>
+                                                                                    <wert name="x14" val="-170"/>
+                                                                                    <wert name="x15" val="-164"/>
+                                                                                    <wert name="x16" val="-158"/>
+                                                                                    <wert name="x17" val="-151"/>
+                                                                                    <wert name="x18" val="-145"/>
+                                                                                    <wert name="x19" val="-139"/>
+                                                                                    <wert name="x20" val="-132"/>
+                                                                                    <wert name="x21" val="-126"/>
+                                                                                    <wert name="x22" val="-120"/>
+                                                                                    <wert name="x23" val="-113"/>
+                                                                                    <wert name="x24" val="-107"/>
+                                                                                    <wert name="x25" val="-101"/>
+                                                                                    <wert name="x26" val="-95"/>
+                                                                                    <wert name="x27" val="-88"/>
+                                                                                    <wert name="x28" val="-82"/>
+                                                                                    <wert name="x29" val="-76"/>
+                                                                                    <wert name="x30" val="-69"/>
+                                                                                    <wert name="x31" val="-63"/>
+                                                                                    <wert name="x32" val="-57"/>
+                                                                                    <wert name="x33" val="-50"/>
+                                                                                    <wert name="x34" val="-44"/>
+                                                                                    <wert name="x35" val="-38"/>
+                                                                                    <wert name="x36" val="-32"/>
+                                                                                    <wert name="x37" val="-25"/>
+                                                                                    <wert name="x38" val="-19"/>
+                                                                                    <wert name="x39" val="-13"/>
+                                                                                    <wert name="x40" val="-6"/>
+                                                                                    <wert name="x41" val="0"/>
+                                                                                    <wert name="x42" val="6"/>
+                                                                                    <wert name="x43" val="13"/>
+                                                                                    <wert name="x44" val="19"/>
+                                                                                    <wert name="x45" val="25"/>
+                                                                                    <wert name="x46" val="32"/>
+                                                                                    <wert name="x47" val="38"/>
+                                                                                    <wert name="x48" val="44"/>
+                                                                                    <wert name="x49" val="50"/>
+                                                                                    <wert name="x50" val="57"/>
+                                                                                    <wert name="x51" val="63"/>
+                                                                                    <wert name="x52" val="69"/>
+                                                                                    <wert name="x53" val="76"/>
+                                                                                    <wert name="x54" val="82"/>
+                                                                                    <wert name="x55" val="88"/>
+                                                                                    <wert name="x56" val="95"/>
+                                                                                    <wert name="x57" val="101"/>
+                                                                                    <wert name="x58" val="107"/>
+                                                                                    <wert name="x59" val="113"/>
+                                                                                    <wert name="x60" val="120"/>
+                                                                                    <wert name="x61" val="126"/>
+                                                                                    <wert name="x62" val="132"/>
+                                                                                    <wert name="x63" val="139"/>
+                                                                                    <wert name="x64" val="145"/>
+                                                                                    <wert name="x65" val="151"/>
+                                                                                    <wert name="x66" val="158"/>
+                                                                                    <wert name="x67" val="164"/>
+                                                                                    <wert name="x68" val="170"/>
+                                                                                    <wert name="x69" val="176"/>
+                                                                                    <wert name="x70" val="183"/>
+                                                                                    <wert name="x71" val="189"/>
+                                                                                    <wert name="x72" val="195"/>
+                                                                                    <wert name="x73" val="202"/>
+                                                                                    <wert name="x74" val="208"/>
+                                                                                    <wert name="x75" val="214"/>
+                                                                                    <wert name="x76" val="221"/>
+                                                                                    <wert name="x77" val="227"/>
+                                                                                    <wert name="x78" val="233"/>
+                                                                                    <wert name="x79" val="239"/>
+                                                                                    <wert name="x80" val="246"/>
+                                                                                    <wert name="x81" val="252"/>
+                                                                                    <wert name="x82" val="258"/>
+                                                                                    <wert name="x83" val="265"/>
+                                                                                    <wert name="x84" val="271"/>
+                                                                                    <wert name="x85" val="277"/>
+                                                                                    <wert name="x86" val="284"/>
+                                                                                    <wert name="x87" val="290"/>
+                                                                                    <wert name="x88" val="296"/>
+                                                                                    <wert name="x89" val="303"/>
+                                                                                    <wert name="x90" val="309"/>
+                                                                                    <wert name="x91" val="315"/>
+                                                                                    <wert name="x92" val="321"/>
+                                                                                    <wert name="x93" val="328"/>
+                                                                                    <wert name="x94" val="334"/>
+                                                                                    <wert name="x95" val="340"/>
+                                                                                    <wert name="x96" val="347"/>
+                                                                                    <wert name="x97" val="353"/>
+                                                                                    <wert name="x98" val="359"/>
+                                                                                    <wert name="x99" val="366"/>
+                                                                                    <wert name="x100" val="372"/>
+                                                                                    <wert name="x101" val="378"/>
+                                                                                    <wert name="x102" val="384"/>
+                                                                                    <wert name="x103" val="391"/>
+                                                                                    <wert name="x104" val="397"/>
+                                                                                    <wert name="x105" val="403"/>
+                                                                                    <wert name="x106" val="410"/>
+                                                                                    <wert name="x107" val="416"/>
+                                                                                    <wert name="x108" val="422"/>
+                                                                                    <wert name="x109" val="429"/>
+                                                                                    <wert name="x110" val="435"/>
+                                                                                    <wert name="x111" val="441"/>
+                                                                                    <wert name="x112" val="447"/>
+                                                                                    <wert name="x113" val="454"/>
+                                                                                    <wert name="x114" val="460"/>
+                                                                                    <wert name="x115" val="466"/>
+                                                                                    <wert name="x116" val="473"/>
+                                                                                    <wert name="x117" val="479"/>
+                                                                                    <wert name="x118" val="485"/>
+                                                                                    <wert name="x119" val="492"/>
+                                                                                    <wert name="x120" val="498"/>
+                                                                                </wa>
+                                                                                <wa name="y">
+                                                                                    <wert name="y1" val="62"/>
+                                                                                    <wert name="y2" val="66"/>
+                                                                                    <wert name="y3" val="71"/>
+                                                                                    <wert name="y4" val="75"/>
+                                                                                    <wert name="y5" val="80"/>
+                                                                                    <wert name="y6" val="85"/>
+                                                                                    <wert name="y7" val="91"/>
+                                                                                    <wert name="y8" val="96"/>
+                                                                                    <wert name="y9" val="102"/>
+                                                                                    <wert name="y10" val="109"/>
+                                                                                    <wert name="y11" val="115"/>
+                                                                                    <wert name="y12" val="122"/>
+                                                                                    <wert name="y13" val="131"/>
+                                                                                    <wert name="y14" val="138"/>
+                                                                                    <wert name="y15" val="146"/>
+                                                                                    <wert name="y16" val="155"/>
+                                                                                    <wert name="y17" val="165"/>
+                                                                                    <wert name="y18" val="174"/>
+                                                                                    <wert name="y19" val="184"/>
+                                                                                    <wert name="y20" val="196"/>
+                                                                                    <wert name="y21" val="207"/>
+                                                                                    <wert name="y22" val="219"/>
+                                                                                    <wert name="y23" val="233"/>
+                                                                                    <wert name="y24" val="246"/>
+                                                                                    <wert name="y25" val="259"/>
+                                                                                    <wert name="y26" val="274"/>
+                                                                                    <wert name="y27" val="291"/>
+                                                                                    <wert name="y28" val="307"/>
+                                                                                    <wert name="y29" val="323"/>
+                                                                                    <wert name="y30" val="343"/>
+                                                                                    <wert name="y31" val="362"/>
+                                                                                    <wert name="y32" val="381"/>
+                                                                                    <wert name="y33" val="404"/>
+                                                                                    <wert name="y34" val="426"/>
+                                                                                    <wert name="y35" val="448"/>
+                                                                                    <wert name="y36" val="471"/>
+                                                                                    <wert name="y37" val="500"/>
+                                                                                    <wert name="y38" val="526"/>
+                                                                                    <wert name="y39" val="553"/>
+                                                                                    <wert name="y40" val="586"/>
+                                                                                    <wert name="y41" val="615"/>
+                                                                                    <wert name="y42" val="642"/>
+                                                                                    <wert name="y43" val="675"/>
+                                                                                    <wert name="y44" val="704"/>
+                                                                                    <wert name="y45" val="735"/>
+                                                                                    <wert name="y46" val="772"/>
+                                                                                    <wert name="y47" val="806"/>
+                                                                                    <wert name="y48" val="840"/>
+                                                                                    <wert name="y49" val="876"/>
+                                                                                    <wert name="y50" val="920"/>
+                                                                                    <wert name="y51" val="959"/>
+                                                                                    <wert name="y52" val="999"/>
+                                                                                    <wert name="y53" val="1048"/>
+                                                                                    <wert name="y54" val="1092"/>
+                                                                                    <wert name="y55" val="1137"/>
+                                                                                    <wert name="y56" val="1192"/>
+                                                                                    <wert name="y57" val="1241"/>
+                                                                                    <wert name="y58" val="1291"/>
+                                                                                    <wert name="y59" val="1344"/>
+                                                                                    <wert name="y60" val="1407"/>
+                                                                                    <wert name="y61" val="1464"/>
+                                                                                    <wert name="y62" val="1522"/>
+                                                                                    <wert name="y63" val="1593"/>
+                                                                                    <wert name="y64" val="1656"/>
+                                                                                    <wert name="y65" val="1722"/>
+                                                                                    <wert name="y66" val="1801"/>
+                                                                                    <wert name="y67" val="1871"/>
+                                                                                    <wert name="y68" val="1943"/>
+                                                                                    <wert name="y69" val="2018"/>
+                                                                                    <wert name="y70" val="2109"/>
+                                                                                    <wert name="y71" val="2190"/>
+                                                                                    <wert name="y72" val="2273"/>
+                                                                                    <wert name="y73" val="2374"/>
+                                                                                    <wert name="y74" val="2463"/>
+                                                                                    <wert name="y75" val="2556"/>
+                                                                                    <wert name="y76" val="2667"/>
+                                                                                    <wert name="y77" val="2766"/>
+                                                                                    <wert name="y78" val="2869"/>
+                                                                                    <wert name="y79" val="2974"/>
+                                                                                    <wert name="y80" val="3102"/>
+                                                                                    <wert name="y81" val="3215"/>
+                                                                                    <wert name="y82" val="3331"/>
+                                                                                    <wert name="y83" val="3472"/>
+                                                                                    <wert name="y84" val="3596"/>
+                                                                                    <wert name="y85" val="3725"/>
+                                                                                    <wert name="y86" val="3880"/>
+                                                                                    <wert name="y87" val="4017"/>
+                                                                                    <wert name="y88" val="4159"/>
+                                                                                    <wert name="y89" val="4330"/>
+                                                                                    <wert name="y90" val="4481"/>
+                                                                                    <wert name="y91" val="4636"/>
+                                                                                    <wert name="y92" val="4797"/>
+                                                                                    <wert name="y93" val="4990"/>
+                                                                                    <wert name="y94" val="5161"/>
+                                                                                    <wert name="y95" val="5337"/>
+                                                                                    <wert name="y96" val="5549"/>
+                                                                                    <wert name="y97" val="5736"/>
+                                                                                    <wert name="y98" val="5929"/>
+                                                                                    <wert name="y99" val="6162"/>
+                                                                                    <wert name="y100" val="6367"/>
+                                                                                    <wert name="y101" val="6578"/>
+                                                                                    <wert name="y102" val="6795"/>
+                                                                                    <wert name="y103" val="7057"/>
+                                                                                    <wert name="y104" val="7288"/>
+                                                                                    <wert name="y105" val="7525"/>
+                                                                                    <wert name="y106" val="7811"/>
+                                                                                    <wert name="y107" val="8063"/>
+                                                                                    <wert name="y108" val="8322"/>
+                                                                                    <wert name="y109" val="8634"/>
+                                                                                    <wert name="y110" val="8909"/>
+                                                                                    <wert name="y111" val="9191"/>
+                                                                                    <wert name="y112" val="9481"/>
+                                                                                    <wert name="y113" val="9830"/>
+                                                                                    <wert name="y114" val="10138"/>
+                                                                                    <wert name="y115" val="10453"/>
+                                                                                    <wert name="y116" val="10833"/>
+                                                                                    <wert name="y117" val="11167"/>
+                                                                                    <wert name="y118" val="11511"/>
+                                                                                    <wert name="y119" val="11923"/>
+                                                                                    <wert name="y120" val="12286"/>
+                                                                                </wa>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                            </o>
+                                                                        </o>
+                                                                    </drawing>
+                                                                    
+                                                                    <properties>
+                                                                        <o classname="a2dStringProperty" name="Name" value="UVR Diagram">
+                                                                        </o>
+                                                                    </properties>
+                                                                    
+                                                                </o>
+                                                            </drawing>
+                                                        </o>
+                                                    </o>
+                                                </drawing>
+                                                
+                                                <properties>
+                                                    <o classname="a2dStringProperty" name="Name" value="">
+                                                    </o>
+                                                </properties>
+                                                
+                                            </o>
+                                        </drawing>
+                                    </o>
+                                </o>
+                            </drawing>
+                            
+                            <properties>
+                                <o classname="a2dStringProperty" name="Name" value="">
+                                </o>
+                            </properties>
+                            
+                        </o>
+                    </appearances>
+                </o>
+                <o classname="a2dCameleon" name="feuchte Luft"
+                     transform="translate( 6052 1049 )"
+                     appearances="1700405910399530" isMultiRef="true" isTemplate="true" drawingId="a2dDrawingId_physical">
+                    <appearances>
+                        <o classname="TaDrawing" id="1700405910399530" rootobject="1700405910399539" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_appearances">
+                            <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                            <title></title>
+                            <desc></desc>
+                            <drawing>
+                                <o classname="a2dCanvasObject" id="1700405910399539">
+                                    <o classname="a2dDiagram" drawing="1700405910399545">
+                                        <drawing>
+                                            <o classname="TaDrawing" id="1700405910399545" rootobject="1700405910399554" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_physical">
+                                                <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                <title></title>
+                                                <desc></desc>
+                                                <drawing>
+                                                    <o classname="a2dCanvasObject" id="1700405910399554">
+                                                        <o classname="CanMTx2" flags=" visible(0) fixedStyle" drawing="1700405910404527">
+                                                            <uvr block="BDBListe">
+                                                                <bdb name="bdb0" text="abs. Feuchte, PD Dampf"/>
+                                                                <bdb name="bdb12" text="spez. Feuchte Raum"/>
+                                                                <bdb name="bdb13" text="H2O Partialdruck, T.abs"/>
+                                                                <bdb name="bdb14" text="Mischungsverhältnis Raum"/>
+                                                                <bdb name="bdb42" text="Sättigungsdampfdruck"/>
+                                                                <bdb name="bdb70" text="Dichte, PD trockene Luft"/>
+                                                            </uvr>
+                                                            <uvr block="CAN">
+                                                            </uvr>
+                                                            <uvr block="Eingaenge">
+                                                                <ein nr="1" bgrp="0" bnr="14" bidx="0" typ="2" mgr="1" pgr="0" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="0" pgrs1="0" pgrs2="1000" nkss="0" kss="-1" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                                <ein nr="2" bgrp="0" bnr="2" bidx="0" typ="2" mgr="8" pgr="0" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="0" pgrs1="0" pgrs2="1000" nkss="0" kss="0" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                                <ein nr="3" bgrp="4" bnr="5" bidx="0" typ="2" mgr="1" pgr="0" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="0" pgrs1="0" pgrs2="1000" nkss="0" kss="-1" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                                <ein nr="4" bgrp="0" bnr="3" bidx="0" typ="2" mgr="3" pgr="34" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="330" pgrs1="0" pgrs2="1000" nkss="0" kss="-1" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                                <ein nr="5" bgrp="0" bnr="1" bidx="0" typ="2" mgr="3" pgr="36" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="330" pgrs1="0" pgrs2="1000" nkss="0" kss="0" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                                <ein nr="6" bgrp="0" bnr="3" bidx="0" typ="2" mgr="3" pgr="7" styp="1" styph="0" r25="1000" beta="3800" r25PTC="100" aPTC="795000" bPTC="1950000" mw="10" quot="0" schk="1" skorr="0" mgrs1="0" mgrs2="330" pgrs1="0" pgrs2="1000" nkss="0" kss="0" nksw="0" ksw="0" nubs="0" ubs="1" nubw="0" ubw="0" einh="19" zteh="1"/>
+                                                            </uvr>
+                                                            <uvr block="Fixwerte">
+                                                            </uvr>
+                                                            
+                                                            <properties>
+                                                                <o classname="a2dStringProperty" name="Name" value="CAN-MTx2">
+                                                                </o>
+                                                            </properties>
+                                                            
+                                                            <o classname="FunkInPin" id="1700405910404541" name="S1">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700405910404542" name="S2">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700405910404543" name="S3">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700405910404544" name="S4">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700405910404545" name="S5">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1700405910404546" name="S6">
+                                                            </o>
+                                                            <drawing>
+                                                                <o classname="TaDrawing" id="1700405910404527" rootobject="1700405910404536" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="mm" units_measure="mm" mayEdit="true" drawingId="a2dDrawingId_CanMTx2">
+                                                                    <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                                    <title>UVR Diagram</title>
+                                                                    <desc></desc>
+                                                                    <drawing>
+                                                                        <o classname="a2dCanvasObject" id="1700405910404536">
+                                                                            <o classname="u16x2FunkMathematik" id="1700405910404547" flags=" selected fixedStyle"
+                                                                                 transform="translate( 10000 1700 )"
+                                                                                 typ="32" fid="4" nr="5" bgrp="1" bnr="13" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910404548" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404549" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404550" name="EFgAABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404551" name="EFgAAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404552" name="EFgACD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404553" name="EVarA" resolveid="1700405910405641">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404554" name="EVarB" resolveid="1700405910405650">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404555" name="EVarC" resolveid="1700405910405645">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404556" name="EVarD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404557" name="Erg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404558" name="ErgABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404559" name="ErgAB" resolveid="1700405910405606">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404560" name="ErgCD" resolveid="1700405910405595">
+                                                                                </o>
+                                                                                <wert name="FktGr" val="1"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAABCD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAAB" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgACD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVarA" qu="3" fid="19" wert="100000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarB" qu="0" fid="0" wert="10000000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarC" qu="0" fid="0" wert="10000000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarD" qu="0" fid="0" wert="27315000" eanr="0" avi="0"/>
+                                                                                <wert name="Funk" val="0"/>
+                                                                                <wert name="OpAB" val="2"/>
+                                                                                <wert name="OpBC" val="0"/>
+                                                                                <wert name="OPCD" val="0"/>
+                                                                                <wert name="Rund" val="0"/>
+                                                                                <av name="Erg" bits="0"/>
+                                                                                <av name="ErgABCD" bits="0"/>
+                                                                                <av name="ErgAB" spin="true" bits="0"/>
+                                                                                <av name="ErgCD" spin="true" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="u16x2FunkMathematik" id="1700405910404563" flags=" selected fixedStyle"
+                                                                                 transform="translate( 29200 2000 )"
+                                                                                 typ="32" fid="0" nr="1" bgrp="1" bnr="12" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910404564" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404565" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404566" name="EFgAABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404567" name="EFgAAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404568" name="EFgACD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404569" name="EVarA" resolveid="1700405910405618">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404570" name="EVarB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404571" name="EVarC" resolveid="1700405910405570">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404572" name="EVarD" resolveid="1700405910405590">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404573" name="Erg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404574" name="ErgABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404575" name="ErgAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404576" name="ErgCD">
+                                                                                </o>
+                                                                                <wert name="FktGr" val="3"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAABCD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAAB" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgACD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVarA" qu="3" fid="10" wert="100000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarB" qu="0" fid="0" wert="100000000" eanr="0" avi="0"/>
+                                                                                <ev name="EVarC" qu="3" fid="8" wert="95400000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarD" qu="3" fid="10" wert="100000" eanr="0" avi="0" spin="true"/>
+                                                                                <wert name="Funk" val="0"/>
+                                                                                <wert name="OpAB" val="2"/>
+                                                                                <wert name="OpBC" val="3"/>
+                                                                                <wert name="OPCD" val="0"/>
+                                                                                <wert name="Rund" val="0"/>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                                <av name="ErgABCD" bits="0"/>
+                                                                                <av name="ErgAB" bits="0"/>
+                                                                                <av name="ErgCD" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="u16x2FunkMathematik" id="1700405910404579" flags=" selected fixedStyle"
+                                                                                 transform="translate( 22800 1700 )"
+                                                                                 typ="32" fid="3" nr="4" bgrp="1" bnr="70" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910404580" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404581" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404582" name="EFgAABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404583" name="EFgAAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404584" name="EFgACD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910404585" name="EVarA" resolveid="1700405910405560">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405529" name="EVarB" resolveid="1700405910406557">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405530" name="EVarC" resolveid="1700405910405564">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405531" name="EVarD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405532" name="Erg" resolveid="1700405910405569">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405533" name="ErgABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405534" name="ErgAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405535" name="ErgCD">
+                                                                                </o>
+                                                                                <wert name="FktGr" val="7"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAABCD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAAB" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgACD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVarA" qu="3" fid="20" wert="100000" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarB" qu="3" fid="10" wert="100000" eanr="0" avi="2" spin="true"/>
+                                                                                <ev name="EVarC" qu="3" fid="1" wert="28705830" eanr="0" avi="3" spin="true"/>
+                                                                                <ev name="EVarD" qu="0" fid="0" wert="28706" eanr="0" avi="0"/>
+                                                                                <wert name="Funk" val="0"/>
+                                                                                <wert name="OpAB" val="1"/>
+                                                                                <wert name="OpBC" val="3"/>
+                                                                                <wert name="OPCD" val="2"/>
+                                                                                <wert name="Rund" val="0"/>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                                <av name="ErgABCD" bits="0"/>
+                                                                                <av name="ErgAB" spin="true" bits="0"/>
+                                                                                <av name="ErgCD" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="u16x2FunkMathematik" id="1700405910405538" flags=" selected fixedStyle"
+                                                                                 transform="translate( 16000 1700 )"
+                                                                                 typ="32" fid="2" nr="3" bgrp="1" bnr="0" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910405539" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405540" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405541" name="EFgAABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405542" name="EFgAAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405543" name="EFgACD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405544" name="EVarA" resolveid="1700405910405605">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405545" name="EVarB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405546" name="EVarC" resolveid="1700405910405600">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405547" name="EVarD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405548" name="Erg" resolveid="1700405910405613">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405549" name="ErgABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405550" name="ErgAB" resolveid="1700405910406552">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405551" name="ErgCD">
+                                                                                </o>
+                                                                                <wert name="FktGr" val="3"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAABCD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAAB" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgACD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVarA" qu="3" fid="1" wert="100000" eanr="0" avi="2" spin="true"/>
+                                                                                <ev name="EVarB" qu="0" fid="0" wert="10000000" eanr="0" avi="0"/>
+                                                                                <ev name="EVarC" qu="3" fid="1" wert="100000" eanr="0" avi="3" spin="true"/>
+                                                                                <ev name="EVarD" qu="0" fid="0" wert="46152" eanr="0" avi="0"/>
+                                                                                <wert name="Funk" val="0"/>
+                                                                                <wert name="OpAB" val="3"/>
+                                                                                <wert name="OpBC" val="3"/>
+                                                                                <wert name="OPCD" val="2"/>
+                                                                                <wert name="Rund" val="0"/>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                                <av name="ErgABCD" bits="0"/>
+                                                                                <av name="ErgAB" spin="true" bits="0"/>
+                                                                                <av name="ErgCD" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="u16x2TacoSignal" flags=" selected fixedStyle"
+                                                                                 transform="translate( 17600 1350 )"
+                                                                                 num="0" typ="1" name="Luftdruck Pa">
+                                                                                <o classname="TacoPin" id="1700405910405555" name="In" resolveid="1700405910405559">
+                                                                                </o>
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="NetworkPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405559" name="begin" x="24000" y="6800"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405555">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405560" name="end" x="26000" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404585">
+                                                                                </o>
+                                                                                <xy x="24000" y="6800"/> <xy x="25500" y="7900"/> <xy x="26000" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="6" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405564" name="begin" x="26000" y="8500"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405530">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405565" name="end" x="18600" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405601"/>
+                                                                                    <connect resolveid="1700405910405596"/>
+                                                                                </o>
+                                                                                <xy x="26000" y="8500"/> <xy x="25500" y="8500"/> <xy x="25500" y="8500"/> <xy x="18600" y="8500"/> <xy x="18600" y="8200"/> <xy x="18600" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="4" invert="true" pcobjbegin="NetworkPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405569" name="end" x="30800" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405532">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405570" name="begin" x="32400" y="8500"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404571">
+                                                                                </o>
+                                                                                <xy x="32400" y="8500"/> <xy x="31600" y="8500"/> <xy x="31600" y="7900"/> <xy x="30800" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="u16x2FunkMathematik" id="1700405910405573" flags=" selected fixedStyle"
+                                                                                 transform="translate( 29200 0 )"
+                                                                                 typ="32" fid="1" nr="2" bgrp="1" bnr="14" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910405574" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405575" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405576" name="EFgAABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405577" name="EFgAAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405578" name="EFgACD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405579" name="EVarA" resolveid="1700405910406547">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405580" name="EVarB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405581" name="EVarC" resolveid="1700405910406533">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405582" name="EVarD" resolveid="1700405910406537">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405583" name="Erg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405584" name="ErgABCD">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405585" name="ErgAB">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405586" name="ErgCD">
+                                                                                </o>
+                                                                                <wert name="FktGr" val="3"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAABCD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgAAB" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EFgACD" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVarA" qu="3" fid="10" wert="100000" eanr="0" avi="2" spin="true"/>
+                                                                                <ev name="EVarB" qu="0" fid="0" wert="62198000" eanr="0" avi="0"/>
+                                                                                <ev name="EVarC" qu="3" fid="20" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                                <ev name="EVarD" qu="3" fid="10" wert="0" eanr="0" avi="2" spin="true"/>
+                                                                                <wert name="Funk" val="0"/>
+                                                                                <wert name="OpAB" val="2"/>
+                                                                                <wert name="OpBC" val="3"/>
+                                                                                <wert name="OPCD" val="1"/>
+                                                                                <wert name="Rund" val="0"/>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                                <av name="ErgABCD" bits="0"/>
+                                                                                <av name="ErgAB" bits="0"/>
+                                                                                <av name="ErgCD" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405590" name="begin" x="32400" y="8800"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404572">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405591" name="end" x="31300" y="8800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405619"/>
+                                                                                    <connect resolveid="1700405910405614"/>
+                                                                                </o>
+                                                                                <xy x="32400" y="8800"/> <xy x="31300" y="8800"/> <xy x="31300" y="8800"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405595" name="begin" x="18000" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404560">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405596" name="end" x="18600" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405601"/>
+                                                                                    <connect resolveid="1700405910405565"/>
+                                                                                </o>
+                                                                                <xy x="18000" y="8200"/> <xy x="18600" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405600" name="end" x="19200" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405546">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405601" name="begin" x="18600" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405565"/>
+                                                                                    <connect resolveid="1700405910405596"/>
+                                                                                </o>
+                                                                                <xy x="18600" y="8200"/> <xy x="19200" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405605" name="end" x="19200" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405544">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405606" name="begin" x="18000" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404559">
+                                                                                </o>
+                                                                                <xy x="18000" y="7900"/> <xy x="19200" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dText" flags=" selected"
+                                                                                 transform="translate( 21300 2900 )"
+                                                                                 linespace="17.6"
+                                                                                 text="Pa"
+                                                                                 textflags="82" font="Freetype font-Arial-Regular-176--arial.ttf"
+                                                                                 firsteditable="0" alignment="wxMINX|wxMAXY|wxBASELINE_CONTRA">
+                                                                                
+                                                                                <properties>
+                                                                                    <o classname="a2dFillProperty" name="Fill">
+                                                                                        <o classname="a2dFill" type="a2dFILL_ONE_COLOUR" colour="WHITE">
+                                                                                        </o>
+                                                                                    </o>
+                                                                                    <o classname="a2dStrokeProperty" name="Stroke">
+                                                                                        <o classname="a2dStroke" type="a2dSTROKE_ONE_COLOUR" colour="BLACK">
+                                                                                        </o>
+                                                                                    </o>
+                                                                                    <o classname="a2dBoolProperty" name="SkipBase" value="false">
+                                                                                    </o>
+                                                                                </properties>
+                                                                                
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="4" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405613" name="begin" x="24000" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405548">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405614" name="end" x="31300" y="8800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405619"/>
+                                                                                    <connect resolveid="1700405910405591"/>
+                                                                                </o>
+                                                                                <xy x="24000" y="7900"/> <xy x="25200" y="7900"/> <xy x="25200" y="8800"/> <xy x="31300" y="8800"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405618" name="end" x="32400" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404569">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405619" name="begin" x="31300" y="8800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405591"/>
+                                                                                    <connect resolveid="1700405910405614"/>
+                                                                                </o>
+                                                                                <xy x="31300" y="8800"/> <xy x="31300" y="8200"/> <xy x="32400" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="u16x2FunkKennlin2d" id="1700405910405622" flags=" selected fixedStyle"
+                                                                                 transform="translate( 4200 1700 )"
+                                                                                 typ="44" fid="5" nr="6" bgrp="1" bnr="42" bidx="0">
+                                                                                <o classname="TacoPin" id="1700405910405623" name="Fg">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405624" name="EFgA">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405625" name="EVx" resolveid="1700405910405630">
+                                                                                </o>
+                                                                                <o classname="TacoPin" id="1700405910405626" name="Erg" resolveid="1700405910405640">
+                                                                                </o>
+                                                                                <wert name="FktGrX" val="4"/>
+                                                                                <wert name="FktGrY" val="35"/>
+                                                                                <ev name="Fg" qu="0" fid="0" wert="1" eanr="0" avi="0"/>
+                                                                                <ev name="EFgA" qu="0" fid="0" wert="0" eanr="0" avi="0"/>
+                                                                                <ev name="EVx" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                                <wert name="Anz" val="120"/>
+                                                                                <wa name="x">
+                                                                                    <wert name="x1" val="-252"/>
+                                                                                    <wert name="x2" val="-246"/>
+                                                                                    <wert name="x3" val="-239"/>
+                                                                                    <wert name="x4" val="-233"/>
+                                                                                    <wert name="x5" val="-227"/>
+                                                                                    <wert name="x6" val="-221"/>
+                                                                                    <wert name="x7" val="-214"/>
+                                                                                    <wert name="x8" val="-208"/>
+                                                                                    <wert name="x9" val="-202"/>
+                                                                                    <wert name="x10" val="-195"/>
+                                                                                    <wert name="x11" val="-189"/>
+                                                                                    <wert name="x12" val="-183"/>
+                                                                                    <wert name="x13" val="-176"/>
+                                                                                    <wert name="x14" val="-170"/>
+                                                                                    <wert name="x15" val="-164"/>
+                                                                                    <wert name="x16" val="-158"/>
+                                                                                    <wert name="x17" val="-151"/>
+                                                                                    <wert name="x18" val="-145"/>
+                                                                                    <wert name="x19" val="-139"/>
+                                                                                    <wert name="x20" val="-132"/>
+                                                                                    <wert name="x21" val="-126"/>
+                                                                                    <wert name="x22" val="-120"/>
+                                                                                    <wert name="x23" val="-113"/>
+                                                                                    <wert name="x24" val="-107"/>
+                                                                                    <wert name="x25" val="-101"/>
+                                                                                    <wert name="x26" val="-95"/>
+                                                                                    <wert name="x27" val="-88"/>
+                                                                                    <wert name="x28" val="-82"/>
+                                                                                    <wert name="x29" val="-76"/>
+                                                                                    <wert name="x30" val="-69"/>
+                                                                                    <wert name="x31" val="-63"/>
+                                                                                    <wert name="x32" val="-57"/>
+                                                                                    <wert name="x33" val="-50"/>
+                                                                                    <wert name="x34" val="-44"/>
+                                                                                    <wert name="x35" val="-38"/>
+                                                                                    <wert name="x36" val="-32"/>
+                                                                                    <wert name="x37" val="-25"/>
+                                                                                    <wert name="x38" val="-19"/>
+                                                                                    <wert name="x39" val="-13"/>
+                                                                                    <wert name="x40" val="-6"/>
+                                                                                    <wert name="x41" val="0"/>
+                                                                                    <wert name="x42" val="6"/>
+                                                                                    <wert name="x43" val="13"/>
+                                                                                    <wert name="x44" val="19"/>
+                                                                                    <wert name="x45" val="25"/>
+                                                                                    <wert name="x46" val="32"/>
+                                                                                    <wert name="x47" val="38"/>
+                                                                                    <wert name="x48" val="44"/>
+                                                                                    <wert name="x49" val="50"/>
+                                                                                    <wert name="x50" val="57"/>
+                                                                                    <wert name="x51" val="63"/>
+                                                                                    <wert name="x52" val="69"/>
+                                                                                    <wert name="x53" val="76"/>
+                                                                                    <wert name="x54" val="82"/>
+                                                                                    <wert name="x55" val="88"/>
+                                                                                    <wert name="x56" val="95"/>
+                                                                                    <wert name="x57" val="101"/>
+                                                                                    <wert name="x58" val="107"/>
+                                                                                    <wert name="x59" val="113"/>
+                                                                                    <wert name="x60" val="120"/>
+                                                                                    <wert name="x61" val="126"/>
+                                                                                    <wert name="x62" val="132"/>
+                                                                                    <wert name="x63" val="139"/>
+                                                                                    <wert name="x64" val="145"/>
+                                                                                    <wert name="x65" val="151"/>
+                                                                                    <wert name="x66" val="158"/>
+                                                                                    <wert name="x67" val="164"/>
+                                                                                    <wert name="x68" val="170"/>
+                                                                                    <wert name="x69" val="176"/>
+                                                                                    <wert name="x70" val="183"/>
+                                                                                    <wert name="x71" val="189"/>
+                                                                                    <wert name="x72" val="195"/>
+                                                                                    <wert name="x73" val="202"/>
+                                                                                    <wert name="x74" val="208"/>
+                                                                                    <wert name="x75" val="214"/>
+                                                                                    <wert name="x76" val="221"/>
+                                                                                    <wert name="x77" val="227"/>
+                                                                                    <wert name="x78" val="233"/>
+                                                                                    <wert name="x79" val="239"/>
+                                                                                    <wert name="x80" val="246"/>
+                                                                                    <wert name="x81" val="252"/>
+                                                                                    <wert name="x82" val="258"/>
+                                                                                    <wert name="x83" val="265"/>
+                                                                                    <wert name="x84" val="271"/>
+                                                                                    <wert name="x85" val="277"/>
+                                                                                    <wert name="x86" val="284"/>
+                                                                                    <wert name="x87" val="290"/>
+                                                                                    <wert name="x88" val="296"/>
+                                                                                    <wert name="x89" val="303"/>
+                                                                                    <wert name="x90" val="309"/>
+                                                                                    <wert name="x91" val="315"/>
+                                                                                    <wert name="x92" val="321"/>
+                                                                                    <wert name="x93" val="328"/>
+                                                                                    <wert name="x94" val="334"/>
+                                                                                    <wert name="x95" val="340"/>
+                                                                                    <wert name="x96" val="347"/>
+                                                                                    <wert name="x97" val="353"/>
+                                                                                    <wert name="x98" val="359"/>
+                                                                                    <wert name="x99" val="366"/>
+                                                                                    <wert name="x100" val="372"/>
+                                                                                    <wert name="x101" val="378"/>
+                                                                                    <wert name="x102" val="384"/>
+                                                                                    <wert name="x103" val="391"/>
+                                                                                    <wert name="x104" val="397"/>
+                                                                                    <wert name="x105" val="403"/>
+                                                                                    <wert name="x106" val="410"/>
+                                                                                    <wert name="x107" val="416"/>
+                                                                                    <wert name="x108" val="422"/>
+                                                                                    <wert name="x109" val="429"/>
+                                                                                    <wert name="x110" val="435"/>
+                                                                                    <wert name="x111" val="441"/>
+                                                                                    <wert name="x112" val="447"/>
+                                                                                    <wert name="x113" val="454"/>
+                                                                                    <wert name="x114" val="460"/>
+                                                                                    <wert name="x115" val="466"/>
+                                                                                    <wert name="x116" val="473"/>
+                                                                                    <wert name="x117" val="479"/>
+                                                                                    <wert name="x118" val="485"/>
+                                                                                    <wert name="x119" val="492"/>
+                                                                                    <wert name="x120" val="498"/>
+                                                                                </wa>
+                                                                                <wa name="y">
+                                                                                    <wert name="y1" val="62"/>
+                                                                                    <wert name="y2" val="66"/>
+                                                                                    <wert name="y3" val="71"/>
+                                                                                    <wert name="y4" val="75"/>
+                                                                                    <wert name="y5" val="80"/>
+                                                                                    <wert name="y6" val="85"/>
+                                                                                    <wert name="y7" val="91"/>
+                                                                                    <wert name="y8" val="96"/>
+                                                                                    <wert name="y9" val="102"/>
+                                                                                    <wert name="y10" val="109"/>
+                                                                                    <wert name="y11" val="115"/>
+                                                                                    <wert name="y12" val="122"/>
+                                                                                    <wert name="y13" val="131"/>
+                                                                                    <wert name="y14" val="138"/>
+                                                                                    <wert name="y15" val="146"/>
+                                                                                    <wert name="y16" val="155"/>
+                                                                                    <wert name="y17" val="165"/>
+                                                                                    <wert name="y18" val="174"/>
+                                                                                    <wert name="y19" val="184"/>
+                                                                                    <wert name="y20" val="196"/>
+                                                                                    <wert name="y21" val="207"/>
+                                                                                    <wert name="y22" val="219"/>
+                                                                                    <wert name="y23" val="233"/>
+                                                                                    <wert name="y24" val="246"/>
+                                                                                    <wert name="y25" val="259"/>
+                                                                                    <wert name="y26" val="274"/>
+                                                                                    <wert name="y27" val="291"/>
+                                                                                    <wert name="y28" val="307"/>
+                                                                                    <wert name="y29" val="323"/>
+                                                                                    <wert name="y30" val="343"/>
+                                                                                    <wert name="y31" val="362"/>
+                                                                                    <wert name="y32" val="381"/>
+                                                                                    <wert name="y33" val="404"/>
+                                                                                    <wert name="y34" val="426"/>
+                                                                                    <wert name="y35" val="448"/>
+                                                                                    <wert name="y36" val="471"/>
+                                                                                    <wert name="y37" val="500"/>
+                                                                                    <wert name="y38" val="526"/>
+                                                                                    <wert name="y39" val="553"/>
+                                                                                    <wert name="y40" val="586"/>
+                                                                                    <wert name="y41" val="615"/>
+                                                                                    <wert name="y42" val="642"/>
+                                                                                    <wert name="y43" val="675"/>
+                                                                                    <wert name="y44" val="704"/>
+                                                                                    <wert name="y45" val="735"/>
+                                                                                    <wert name="y46" val="772"/>
+                                                                                    <wert name="y47" val="806"/>
+                                                                                    <wert name="y48" val="840"/>
+                                                                                    <wert name="y49" val="876"/>
+                                                                                    <wert name="y50" val="920"/>
+                                                                                    <wert name="y51" val="959"/>
+                                                                                    <wert name="y52" val="999"/>
+                                                                                    <wert name="y53" val="1048"/>
+                                                                                    <wert name="y54" val="1092"/>
+                                                                                    <wert name="y55" val="1137"/>
+                                                                                    <wert name="y56" val="1192"/>
+                                                                                    <wert name="y57" val="1241"/>
+                                                                                    <wert name="y58" val="1291"/>
+                                                                                    <wert name="y59" val="1344"/>
+                                                                                    <wert name="y60" val="1407"/>
+                                                                                    <wert name="y61" val="1464"/>
+                                                                                    <wert name="y62" val="1522"/>
+                                                                                    <wert name="y63" val="1593"/>
+                                                                                    <wert name="y64" val="1656"/>
+                                                                                    <wert name="y65" val="1722"/>
+                                                                                    <wert name="y66" val="1801"/>
+                                                                                    <wert name="y67" val="1871"/>
+                                                                                    <wert name="y68" val="1943"/>
+                                                                                    <wert name="y69" val="2018"/>
+                                                                                    <wert name="y70" val="2109"/>
+                                                                                    <wert name="y71" val="2190"/>
+                                                                                    <wert name="y72" val="2273"/>
+                                                                                    <wert name="y73" val="2374"/>
+                                                                                    <wert name="y74" val="2463"/>
+                                                                                    <wert name="y75" val="2556"/>
+                                                                                    <wert name="y76" val="2667"/>
+                                                                                    <wert name="y77" val="2766"/>
+                                                                                    <wert name="y78" val="2869"/>
+                                                                                    <wert name="y79" val="2974"/>
+                                                                                    <wert name="y80" val="3102"/>
+                                                                                    <wert name="y81" val="3215"/>
+                                                                                    <wert name="y82" val="3331"/>
+                                                                                    <wert name="y83" val="3472"/>
+                                                                                    <wert name="y84" val="3596"/>
+                                                                                    <wert name="y85" val="3725"/>
+                                                                                    <wert name="y86" val="3880"/>
+                                                                                    <wert name="y87" val="4017"/>
+                                                                                    <wert name="y88" val="4159"/>
+                                                                                    <wert name="y89" val="4330"/>
+                                                                                    <wert name="y90" val="4481"/>
+                                                                                    <wert name="y91" val="4636"/>
+                                                                                    <wert name="y92" val="4797"/>
+                                                                                    <wert name="y93" val="4990"/>
+                                                                                    <wert name="y94" val="5161"/>
+                                                                                    <wert name="y95" val="5337"/>
+                                                                                    <wert name="y96" val="5549"/>
+                                                                                    <wert name="y97" val="5736"/>
+                                                                                    <wert name="y98" val="5929"/>
+                                                                                    <wert name="y99" val="6162"/>
+                                                                                    <wert name="y100" val="6367"/>
+                                                                                    <wert name="y101" val="6578"/>
+                                                                                    <wert name="y102" val="6795"/>
+                                                                                    <wert name="y103" val="7057"/>
+                                                                                    <wert name="y104" val="7288"/>
+                                                                                    <wert name="y105" val="7525"/>
+                                                                                    <wert name="y106" val="7811"/>
+                                                                                    <wert name="y107" val="8063"/>
+                                                                                    <wert name="y108" val="8322"/>
+                                                                                    <wert name="y109" val="8634"/>
+                                                                                    <wert name="y110" val="8909"/>
+                                                                                    <wert name="y111" val="9191"/>
+                                                                                    <wert name="y112" val="9481"/>
+                                                                                    <wert name="y113" val="9830"/>
+                                                                                    <wert name="y114" val="10138"/>
+                                                                                    <wert name="y115" val="10453"/>
+                                                                                    <wert name="y116" val="10833"/>
+                                                                                    <wert name="y117" val="11167"/>
+                                                                                    <wert name="y118" val="11511"/>
+                                                                                    <wert name="y119" val="11923"/>
+                                                                                    <wert name="y120" val="12286"/>
+                                                                                </wa>
+                                                                                <av name="Erg" spin="true" bits="0"/>
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405630" name="begin" x="7400" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405625">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405631" name="end" x="6800" y="7900"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405646"/>
+                                                                                    <connect resolveid="1700405910405636"/>
+                                                                                </o>
+                                                                                <xy x="7400" y="7900"/> <xy x="6800" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="6" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405635" name="end" x="6400" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910406565">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405636" name="begin" x="6800" y="7900"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405646"/>
+                                                                                    <connect resolveid="1700405910405631"/>
+                                                                                </o>
+                                                                                <xy x="6800" y="7900"/> <xy x="6800" y="7900"/> <xy x="6800" y="7900"/> <xy x="6800" y="7900"/> <xy x="6800" y="7900"/> <xy x="6400" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405640" name="begin" x="12200" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405626">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405641" name="end" x="13200" y="7900"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404553">
+                                                                                </o>
+                                                                                <xy x="12200" y="7900"/> <xy x="13200" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405645" name="begin" x="13200" y="8500"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404555">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405646" name="end" x="6800" y="7900"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910405636"/>
+                                                                                    <connect resolveid="1700405910405631"/>
+                                                                                </o>
+                                                                                <xy x="13200" y="8500"/> <xy x="6800" y="8500"/> <xy x="6800" y="7900"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910405650" name="begin" x="13200" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910404554">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910405651" name="end" x="6400" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910406569">
+                                                                                </o>
+                                                                                <xy x="13200" y="8200"/> <xy x="6400" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="u16x2TacoSignal" flags=" selected fixedStyle"
+                                                                                 transform="translate( 25000 1050 )"
+                                                                                 num="0" typ="1" name="Luftdruck Pa">
+                                                                                <o classname="TacoPin" id="1700405910405655" name="In" resolveid="1700405910406532">
+                                                                                </o>
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="NetworkPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406532" name="begin" x="31400" y="6500"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405655">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406533" name="end" x="32400" y="6500"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405581">
+                                                                                </o>
+                                                                                <xy x="31400" y="6500"/> <xy x="32400" y="6500"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406537" name="begin" x="32400" y="6800"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405582">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406538" name="end" x="24900" y="6800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406548"/>
+                                                                                    <connect resolveid="1700405910406542"/>
+                                                                                </o>
+                                                                                <xy x="32400" y="6800"/> <xy x="24900" y="6800"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406542" name="begin" x="24900" y="6800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406548"/>
+                                                                                    <connect resolveid="1700405910406538"/>
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406543" name="end" x="24900" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406558"/>
+                                                                                    <connect resolveid="1700405910406553"/>
+                                                                                </o>
+                                                                                <xy x="24900" y="6800"/> <xy x="24900" y="8200"/> <xy x="24900" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="3" invert="true" pcobjbegin="FunctionPinIn" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406547" name="begin" x="32400" y="6200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405579">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406548" name="end" x="24900" y="6800"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406538"/>
+                                                                                    <connect resolveid="1700405910406542"/>
+                                                                                </o>
+                                                                                <xy x="32400" y="6200"/> <xy x="24900" y="6200"/> <xy x="24900" y="6800"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406552" name="begin" x="24000" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405550">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406553" name="end" x="24900" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406558"/>
+                                                                                    <connect resolveid="1700405910406543"/>
+                                                                                </o>
+                                                                                <xy x="24000" y="8200"/> <xy x="24900" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dWirePolylineL" layer="3" flags=" selected filled(0)"
+                                                                                 transform="translate( -3200 -5300 )"
+                                                                                 points="2" invert="true" pcobjbegin="FunctionPinOut" pcwirebegin="TaWirePin" pcwireend="TaWirePin">
+                                                                                <o classname="TaPin" id="1700405910406557" name="end" x="26000" y="8200"
+                                                                                     pinclass="TaWirePin" resolveid="1700405910405529">
+                                                                                </o>
+                                                                                <o classname="TaPin" id="1700405910406558" name="begin" x="24900" y="8200"
+                                                                                     pinclass="TaWirePin">
+                                                                                    <connect resolveid="1700405910406553"/>
+                                                                                    <connect resolveid="1700405910406543"/>
+                                                                                </o>
+                                                                                <xy x="24900" y="8200"/> <xy x="26000" y="8200"/> 
+                                                                            </o>
+                                                                            <o classname="a2dText" flags=" selected"
+                                                                                 transform="translate( 27900 2900 )"
+                                                                                 linespace="17.6"
+                                                                                 text=" Pa   "
+                                                                                 textflags="82" font="Freetype font-Arial-Regular-176--arial.ttf"
+                                                                                 firsteditable="0" alignment="wxMINX|wxMAXY|wxBASELINE_CONTRA">
+                                                                                
+                                                                                <properties>
+                                                                                    <o classname="a2dFillProperty" name="Fill">
+                                                                                        <o classname="a2dFill" type="a2dFILL_ONE_COLOUR" colour="WHITE">
+                                                                                        </o>
+                                                                                    </o>
+                                                                                    <o classname="a2dStrokeProperty" name="Stroke">
+                                                                                        <o classname="a2dStroke" type="a2dSTROKE_ONE_COLOUR" colour="BLACK">
+                                                                                        </o>
+                                                                                    </o>
+                                                                                    <o classname="a2dBoolProperty" name="SkipBase" value="false">
+                                                                                    </o>
+                                                                                </properties>
+                                                                                
+                                                                            </o>
+                                                                            <o classname="u16x2TacoSignal" flags=" selected selected2 fixedStyle"
+                                                                                 transform="translate( 0 2450 )"
+                                                                                 num="0" typ="1" name="Temperatur">
+                                                                                <o classname="TacoPin" id="1700405910406565" name="In" resolveid="1700405910405635">
+                                                                                </o>
+                                                                            </o>
+                                                                            <o classname="u16x2TacoSignal" flags=" selected fixedStyle"
+                                                                                 transform="translate( 0 2750 )"
+                                                                                 num="0" typ="1" name="relative Feuchte">
+                                                                                <o classname="TacoPin" id="1700405910406569" name="In" resolveid="1700405910405651">
+                                                                                </o>
+                                                                            </o>
+                                                                        </o>
+                                                                    </drawing>
+                                                                    
+                                                                    <properties>
+                                                                        <o classname="a2dStringProperty" name="Name" value="UVR Diagram">
+                                                                        </o>
+                                                                    </properties>
+                                                                    
+                                                                </o>
+                                                            </drawing>
+                                                        </o>
+                                                    </o>
+                                                </drawing>
+                                                
+                                                <properties>
+                                                    <o classname="a2dStringProperty" name="Name" value="">
+                                                    </o>
+                                                </properties>
+                                                
+                                            </o>
+                                        </drawing>
+                                    </o>
+                                </o>
+                            </drawing>
+                            
+                            <properties>
+                                <o classname="a2dStringProperty" name="Name" value="">
+                                </o>
+                            </properties>
+                            
+                        </o>
+                    </appearances>
+                </o>
+            </o>
+        </drawing>
+        
+        <properties>
+            <o classname="a2dStringProperty" name="Name" value="top">
+            </o>
+        </properties>
+        
+    </o>
+</tapps>
