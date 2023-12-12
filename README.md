@@ -17,7 +17,7 @@ Currently the library contains:
   -  partial pressure of dry air
   -  density of dry and moist air
 - a set of blocks to calculate mixing ratio alone
-- a set of blocks to calculate enthalpy
+- a set of blocks to calculate enthalpy $h_{1+x}$ out of a temperature and a mixing ratio
 - a set of blocks to calculate surface humidity (activity of water) out of a mixing ratio and a surface temperature
 - a set of blocks to calculate surface humidity out of specific humidity and a surface temperature
 
@@ -28,4 +28,4 @@ Currently the library contains:
 4. in the dialog that appears, choose the .lib file from the location you saved it.
 
 ## How to use
-Just drag the desired function block set from the library in the bottim left corner to your programming area.
+Just drag the desired function block set from the library in the bottom left corner to your programming area.
