@@ -9,17 +9,17 @@ Diese .bib-Datei wird in TAPPS2 eingebunden. Dann erscheint ihr Inhalt links unt
 Momentan enthält die Bibliothek:
 - eine ausgefüllte «Kennlinienfunktion 2D», welche anhand einer Temperatur den Sättigungsdampfdruck des Wasserdampfes in der feuchten Luft berechnet. Dabei wird die Magnus-Formel anhand einer Tabelle interpoliert. Die Werte der Magnus-Formel entstammen [VDI/VDE 3514 Blatt 1](https://www.vdi.de/richtlinien/details/vdivde-3514-blatt-1-gasfeuchtemessung-kenngroessen-und-formelzeichen), die Enhancementfaktoren für feuchte Luft entstammen [Wikipedia](https://de.wikipedia.org/w/index.php?title=S%C3%A4ttigungsdampfdruck&oldid=236975950#Korrekturfaktoren_f%C3%BCr_feuchte_Luft). Werte in Pascal ohne Kommastellen.
 - eine ausgefüllte «Kennlinienfunktion 2D» wie oben, aber mit Hektopascal auf zwei Kommastellen als Ausgabeeinheit
-- ein Set an Funktionsblöcken, welche anhand einer Temperatur und relativen Feuchte die grundlegenden Eigenschaften feuchter Luft berechnen, die da wären:
+- ein Set aus Funktionsblöcken, welche anhand einer Temperatur und relativen Feuchte die grundlegenden Eigenschaften feuchter Luft berechnen, die da wären:
   - Partialdruck des Wasserdampfes
   - Dampfdichte
   - Feuchtegrad
   - Partialdruck der trockenen Luft
   - Dichten der trockenen und feuchten Luft
   - spezifische Feuchte
-- ein Set aun Funktionsblöcken, um nur den Feuchtegrad zu bestimmen
-- ein Set aun Funktionsblöcken, um die Enthalpie der ungesättigten feuchten Luft zu berechnen
-- ein Set aun Funktionsblöcken, um aus einem Feuchtegrad und einer Oberflächentemperatur die relative Feuchtigkeit an der Oberfläche zu berechnen
-- ein Set aun Funktionsblöcken wie oben, aber mit der spezifischen Feuchte als Eingabegrösse
+- ein Set aus Funktionsblöcken, um nur den Feuchtegrad zu bestimmen
+- ein Set aus Funktionsblöcken, um aus einer Temperatur und einem Feuchtegrad die Enthalpie $h_{1+x}$ der ungesättigten feuchten Luft zu berechnen
+- ein Set aus Funktionsblöcken, um aus einem Feuchtegrad und einer Oberflächentemperatur die relative Feuchtigkeit an der Oberfläche zu berechnen
+- ein Set aus Funktionsblöcken wie oben, aber mit der spezifischen Feuchte als Eingabegrösse
 
 ## Wie installieren
 1. Speichern Sie die .lib-Datei auf Ihrer Festplatte
