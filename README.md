@@ -7,7 +7,7 @@ Library for [TAPPS2](https://wiki.ta.co.at/TAPPS2) by Austrian [PLC](https://en.
 This .bib library can be added to TAPPS2. It's content then appears in the program window left bottom section.
 
 Currently the library contains:
-- a function template for calculating saturation vapour pressure of water in air. The August-Roche-Magnus formula is used therefore based on [VDI/VDE 3514 Part 1](https://www.vdi.de/richtlinien/details/vdivde-3514-blatt-1-gasfeuchtemessung-kenngroessen-und-formelzeichen) with enhancement factors for humid air. The enhancement factors were taken from [Wikipedia](https://de.wikipedia.org/w/index.php?title=S%C3%A4ttigungsdampfdruck&oldid=236975950#Korrekturfaktoren_f%C3%BCr_feuchte_Luft)
+- a function template for calculating saturation vapour pressure of steam in air.
 - an identical function template as above but in units of hPa with two decimal places
 - a set of blocks to calculate basic properties of humid air such as
   -  specific humidity
@@ -29,3 +29,11 @@ Currently the library contains:
 
 ## How to use
 Just drag the desired function block set from the library in the bottom left corner to your programming area.
+
+## Some background on interpolation
+The saturation vapour pressure is calculated for water vapour in humid air. The exact formula used is that of Dietrich Sonntag from 1990, with a constant enhancement factor of 1.0047. This formula is more accurate than [VDI/VDE 3514 Sheet 1](https://www.vdi.de/richtlinien/details/vdivde-3514-blatt-1-gasfeuchtemessung-kenngroessen-und-formelzeichen). In the range from 200 to 1100 hPa and -20 to 68.9 °C, the standard deviation of the formula is less than ±0.15 Pa. This accuracy is helpful when working with small temperature differences.
+
+The possible maximum of 120 support points is used for the interpolation. Of these, 119 are in the range from -20 °C to 68.9 °C. The pressure values and reference points were selected to minimise the interpolation error. This means that the pressure values at a reference point may differ slightly from the true value if this improves the interpolated values. At low temperatures, the relative error is greatest, with peaks of ±0.6%. At higher temperatures, the absolute error is greatest, but does not exceed ±2.5 Pa. Since TA does not process values above 30000 Pa, the maximum application temperature is 68.9 °C. In the range between -30 °C and -20 °C, a signal with reduced accuracy is provided for rarely expected temperatures. The deviation in this range is max. ±15 % or ±6 Pa.
+
+## Literature
+- Sonntag, Dietrich: _Important New Values of the Physical Constants of 1986, Vapor Pressure Formulations based on the ITS-90 and Psychrometer Formulae._ In: Zeitschrift für Meteorologie 70 (1990) 5, pp. 340–344
