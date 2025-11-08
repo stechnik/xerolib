@@ -7,8 +7,7 @@ Bibliothek für [TAPPS2](https://wiki.ta.co.at/TAPPS2) des Österreichischen [SP
 Diese .bib-Datei wird in TAPPS2 eingebunden. Dann erscheint ihr Inhalt links unten im Programmfenster.
 
 Momentan enthält die Bibliothek:
-- eine ausgefüllte «Kennlinienfunktion 2D», welche anhand einer Temperatur den [Sättigungsdampfdruck]
-(https://de.wikipedia.org/wiki/S%C3%A4ttigungsdampfdruck) des Wasserdampfes in der feuchten Luft berechnet. Werte in Pascal ohne Kommastellen.
+- eine ausgefüllte «Kennlinienfunktion 2D», welche anhand einer Temperatur den [Sättigungsdampfdruck](https://de.wikipedia.org/wiki/S%C3%A4ttigungsdampfdruck) des Wasserdampfes in der feuchten Luft berechnet. Werte in Pascal ohne Kommastellen.
 - eine ausgefüllte «Kennlinienfunktion 2D» wie oben, aber in Hektopascal (mbar) mit zwei Kommastellen als Ausgabeeinheit
 - ein Set aus Funktionsblöcken, welche anhand einer Temperatur und relativen Feuchte die grundlegenden Eigenschaften feuchter Luft berechnen, die da wären:
   - [Partialdruck](https://de.wikipedia.org/wiki/Partialdruck) des Wasserdampfes und der trockenen Luft
