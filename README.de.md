@@ -7,15 +7,15 @@ Bibliothek für [TAPPS2](https://wiki.ta.co.at/TAPPS2) des Österreichischen [SP
 Diese .bib-Datei wird in TAPPS2 eingebunden. Dann erscheint ihr Inhalt links unten im Programmfenster.
 
 Momentan enthält die Bibliothek:
-- eine ausgefüllte «Kennlinienfunktion 2D», welche anhand einer Temperatur den Sättigungsdampfdruck des Wasserdampfes in der feuchten Luft berechnet. Werte in Pascal ohne Kommastellen.
-- eine ausgefüllte «Kennlinienfunktion 2D» wie oben, aber mit Hektopascal auf zwei Kommastellen als Ausgabeeinheit
+- eine ausgefüllte «Kennlinienfunktion 2D», welche anhand einer Temperatur den [Sättigungsdampfdruck]
+(https://de.wikipedia.org/wiki/S%C3%A4ttigungsdampfdruck) des Wasserdampfes in der feuchten Luft berechnet. Werte in Pascal ohne Kommastellen.
+- eine ausgefüllte «Kennlinienfunktion 2D» wie oben, aber in Hektopascal (mbar) mit zwei Kommastellen als Ausgabeeinheit
 - ein Set aus Funktionsblöcken, welche anhand einer Temperatur und relativen Feuchte die grundlegenden Eigenschaften feuchter Luft berechnen, die da wären:
-  - Partialdruck des Wasserdampfes
-  - Dampfdichte
-  - Feuchtegrad
-  - Partialdruck der trockenen Luft
-  - Dichten der trockenen und feuchten Luft
-  - spezifische Feuchte
+  - [Partialdruck](https://de.wikipedia.org/wiki/Partialdruck) des Wasserdampfes und der trockenen Luft
+  - [Dampfdichte](https://de.wikipedia.org/wiki/Luftfeuchtigkeit#Dampfdichte): Gramm Dampf pro Kubikmeter (feuchte) Luft
+  - [Feuchtegrad](https://de.wikipedia.org/wiki/Luftfeuchtigkeit#Feuchtegrad): Gramm Dampf pro Kilogramm _trockene_ Luft
+  - Dichte der trockenen Luft: Masse Stickstoff, Sauerstoff und Argon pro Kubikmeter Luft
+  - [spezifische Feuchte](https://de.wikipedia.org/wiki/Luftfeuchtigkeit#Spezifische_Luftfeuchtigkeit): Gramm Dampf pro Kilogramm _feuchte_ Luft
 - ein Set aus Funktionsblöcken, um nur den Feuchtegrad zu bestimmen
 - ein Set aus Funktionsblöcken, um aus einer Temperatur und einem Feuchtegrad die Enthalpie $h_{1+x}$ der ungesättigten feuchten Luft zu berechnen
 - ein Set aus Funktionsblöcken, um aus einem Feuchtegrad und einer Oberflächentemperatur die relative Feuchtigkeit an der Oberfläche zu berechnen
@@ -28,7 +28,9 @@ Momentan enthält die Bibliothek:
 4. Es öffnet sich ein Dialog, wo Sie die .lib-Datei auswählen können.
 
 ## Wie benutzen
-Einfach den gewünschten Baustein im Auswahlbaum anklicken und auf den Programmier-Bereich ziehen.
+Einfach den gewünschten Baustein im Auswahlbaum anklicken und auf den Programmier-Bereich ziehen. Je nach Hardwareversion haben die Displays [MTx2](https://www.ta.co.at/x2-bedienung-schnittstellen/can-mtx2) einen Luftdrucksensor verbaut, dessen Signal man zur Berechnung des Feuchtegrades verwenden kann. Alternativ kann man einen Fixwert angepasst an die Meereshöhe des Standorts verwenden, der eingehandelte Fehler ist für die meisten Gebäudetechnikanwendungen vernachlässigbar.
+
+TA gibt an ihren Feuchtesensoren (MTx2, [RAS-CT4](https://www.ta.co.at/sensoren/raumsensor-mit-touch-display), [RAS](https://www.ta.co.at/sensoren/raumsensor-mit-fernanzeige), [RFS](https://www.ta.co.at/sensoren/feuchtesensor)) die Dampfdichte und den Taupunkt direkt an. Beide Werte verändern sich allerdings, wenn Luft durch einen Wärmetauscher fliesst. Deshalb sollte man beim Vergleich von Luft unterschiedlicher Temperatur in der Regel den Feuchtegrad verwenden.
 
 ## Etwas Hintergrund zur Interpolation
 Der Sättigungsdampfdruck wird für Wasserdampf in der feuchten Luft berechnet. Dabei wird die genaue Formel von Dietrich Sonntag von 1990 verwendet und ein konstanter Enhancementfaktor von 1.0047. Diese Formel ist genauer als [VDI/VDE 3514 Blatt 1](https://www.vdi.de/richtlinien/details/vdivde-3514-blatt-1-gasfeuchtemessung-kenngroessen-und-formelzeichen). Im Bereich von 200 bis 1100 hPa und -20 bis 68.9 °C beträgt die Standardabweichung der Formel weniger als ±0.15 Pa. Diese Genauigkeit ist hilfreich, wenn man mit kleinen Temperatudrifferenzen arbeitet.
