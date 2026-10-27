@@ -44,9 +44,9 @@ The curves give the saturation vapour pressure over pure water, without the fact
 
 ## What changes compared to previous versions
 ### Compared to the version of August 2026
-- The enhancement factor of 1.0047 is back, but only where relative humidity and partial pressure are converted into each other: absolute humidity and mixing ratio in the «humid air» set, partial pressure in the «mixing ratio only» set, and both inverse functions. The curves remain without the factor.
-- For the same relative humidity, partial pressure, absolute humidity, mixing ratio and specific humidity are therefore about 0.47 % higher. For the same mixing ratio, the inverse functions return a relative humidity 0.47 % lower, so they once again return exactly the relative humidity originally measured.
-- If you already use the inverse functions in a program, you have to copy the new constants there by hand.
+- The enhancement factor of 1.0047 is back, but only where relative humidity and partial pressure are converted into each other: absolute humidity and mixing ratio in the set for the basic properties of humid air («feuchte Luft»), partial pressure in the set for mixing ratio alone («nur Feuchtegrad»), and both sets for surface humidity («Umkehrf. Feuchtegrad», «Umkehrf. spez. Feuchte»). The curves remain without the factor.
+- For the same relative humidity, partial pressure, absolute humidity, mixing ratio and specific humidity are therefore about 0.47 % higher. For the same mixing ratio, the surface humidity sets return a relative humidity 0.47 % lower, so they once again return exactly the relative humidity originally measured.
+- If you already use the surface humidity sets in a program, you have to copy the new constants there by hand.
 - New block for surface humidity (see above).
 - The curves are now named «Sättigungsdampfdruck H2O Pascal» and «Sättigungsdampfdruck H2O hPa» instead of «… H2O-Luft …».
 - Units are written as text where TA has no unit of its own.

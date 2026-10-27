@@ -44,9 +44,9 @@ Die Kennlinien geben den Sättigungsdampfdruck über reinem Wasser an, ohne Fakt
 
 ## Was sich gegenüber den bisherigen Fassungen ändert
 ### Gegenüber der Fassung vom August 2026
-- Der Enhancementfaktor 1.0047 ist wieder eingebaut, aber nur dort, wo zwischen relativer Feuchte und Partialdruck umgerechnet wird: Dampfdichte und Feuchtegrad im Set «feuchte Luft», Partialdruck im Set «nur Feuchtegrad» und die beiden Umkehrfunktionen. Die Kennlinien bleiben ohne Faktor.
-- Bei gleicher relativer Feuchte fallen Partialdruck, Dampfdichte, Feuchtegrad und spezifische Feuchte dadurch um rund 0.47 % höher aus. Die Umkehrfunktionen liefern bei gleichem Feuchtegrad eine um 0.47 % tiefere relative Feuchte und geben damit wieder genau die ursprünglich gemessene relative Feuchte zurück.
-- Wer die Umkehrfunktionen bereits in einem Programm verwendet, muss die neuen Konstanten dort von Hand übernehmen.
+- Der Enhancementfaktor 1.0047 ist wieder eingebaut, aber nur dort, wo zwischen relativer Feuchte und Partialdruck umgerechnet wird: Dampfdichte und Feuchtegrad im Set «feuchte Luft», Partialdruck im Set «nur Feuchtegrad» und die beiden Sets zur Feuchte an der Oberfläche («Umkehrf. Feuchtegrad», «Umkehrf. spez. Feuchte»). Die Kennlinien bleiben ohne Faktor.
+- Bei gleicher relativer Feuchte fallen Partialdruck, Dampfdichte, Feuchtegrad und spezifische Feuchte dadurch um rund 0.47 % höher aus. Die Sets zur Feuchte an der Oberfläche liefern bei gleichem Feuchtegrad eine um 0.47 % tiefere relative Feuchte und geben damit wieder genau die ursprünglich gemessene relative Feuchte zurück.
+- Wer die Sets zur Feuchte an der Oberfläche bereits in einem Programm verwendet, muss die neuen Konstanten dort von Hand übernehmen.
 - Neuer Funktionsblock zur Oberflächenfeuchte (siehe oben).
 - Die Kennlinien heissen neu «Sättigungsdampfdruck H2O Pascal» und «Sättigungsdampfdruck H2O hPa» statt «… H2O-Luft …».
 - Einheiten sind als Text angeschrieben, wo TA keine eigene Einheit kennt.
