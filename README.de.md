@@ -19,6 +19,7 @@ Momentan enthält die Bibliothek:
 - ein Set aus Funktionsblöcken, um aus einer Temperatur und einem Feuchtegrad die Enthalpie $h_{1+x}$ der ungesättigten feuchten Luft zu berechnen
 - ein Set aus Funktionsblöcken, um aus einem Feuchtegrad und einer Oberflächentemperatur die relative Feuchtigkeit an der Oberfläche zu berechnen
 - ein Set aus Funktionsblöcken wie oben, aber mit der spezifischen Feuchte als Eingabegrösse
+- ein Funktionsblock, um aus der relativen Feuchte an einem Ort A und den Sättigungsdampfdrücken an den Orten A und B die relative Feuchte am Ort B zu berechnen, etwa an einer kälteren Oberfläche. Vorausgesetzt ist, dass die Luft an beiden Orten gleich viel Wasserdampf enthält.
 
 ## Wie installieren
 1. Speichern Sie die .lib-Datei auf Ihrer Festplatte
@@ -36,9 +37,23 @@ Für den Sättigungsdampfdruck über Wasser wird die genaue Formel von Dietrich 
 
 Für die Interpolation werden die maximal möglichen 120 Stützpunkte verwendet. Sie decken durchgehend den Bereich von -30.0 °C bis 69.0 °C ab. Die Druckwerte und Stützpunkte wurden gewählt, um den Interpolationsfehler zu minimieren. Das bedeutet, dass die Werte eines Stützpunktes geringfügig abweichen können, wenn dadurch die interpolierten Werte besser werden. Bei tiefen Temperaturen ist der relative Fehler am grössten, er bleibt aber unter ±0.35 %. Bei höheren Temperaturen ist der absolute Fehler am grössten, wobei er ±1.5 Pa nicht überschreitet. Da TA keine Werte über 30000 Pa verarbeitet, ergibt sich eine maximale Anwendungstemperatur von 69.0 °C. Einen Bereich mit reduzierter Genauigkeit gibt es nicht mehr, die Kennlinie ist über den gesamten Bereich gleich genau.
 
-## Was sich gegenüber der bisherigen Fassung ändert
+## Enhancementfaktor
+In feuchter Luft liegt der Sättigungsdampfdruck etwas höher als über reinem Wasser, weil die übrigen Gase den Dampf beeinflussen. Diesen Unterschied beschreibt der Enhancementfaktor $f$. Er hängt vor allem vom Luftdruck ab: Nach WMO beträgt er 1.0044 bei 900 hPa, 1.0047 bei 1013 hPa und 1.0048 bei 1050 hPa.
+
+Die Kennlinien geben den Sättigungsdampfdruck über reinem Wasser an, ohne Faktor. Die Funktionsblöcke, die zwischen relativer Feuchte und Partialdruck umrechnen, rechnen mit einem festen Faktor von 1.0047. Der Fehler gegenüber dem druckabhängigen Wert bleibt im üblichen Druckbereich unter ±0.04 % und ist damit vernachlässigbar. Wo nur zwei Sättigungsdampfdrücke ins Verhältnis gesetzt werden, wie bei der Oberflächenfeuchte, hebt sich der Faktor auf.
+
+## Was sich gegenüber den bisherigen Fassungen ändert
+### Gegenüber der Fassung vom August 2026
+- Der Enhancementfaktor 1.0047 ist wieder eingebaut, aber nur dort, wo zwischen relativer Feuchte und Partialdruck umgerechnet wird: Dampfdichte und Feuchtegrad im Set «feuchte Luft», Partialdruck im Set «nur Feuchtegrad» und die beiden Umkehrfunktionen. Die Kennlinien bleiben ohne Faktor.
+- Bei gleicher relativer Feuchte fallen Partialdruck, Dampfdichte, Feuchtegrad und spezifische Feuchte dadurch um rund 0.47 % höher aus. Die Umkehrfunktionen liefern bei gleichem Feuchtegrad eine um 0.47 % tiefere relative Feuchte und geben damit wieder genau die ursprünglich gemessene relative Feuchte zurück.
+- Wer die Umkehrfunktionen bereits in einem Programm verwendet, muss die neuen Konstanten dort von Hand übernehmen.
+- Neuer Funktionsblock zur Oberflächenfeuchte (siehe oben).
+- Die Kennlinien heissen neu «Sättigungsdampfdruck H2O Pascal» und «Sättigungsdampfdruck H2O hPa» statt «… H2O-Luft …».
+- Einheiten sind als Text angeschrieben, wo TA keine eigene Einheit kennt.
+
+### Gegenüber den Fassungen vor August 2026
 - Bei Minustemperaturen wird der Sättigungsdampfdruck neu über unterkühltem Wasser statt über Eis gerechnet, so wie die Sensoren ihre relative Feuchte angeben. Betroffen sind ausschliesslich Temperaturen unter 0 °C; dort fallen die Ergebnisse höher aus: rund +5 % bei -5 °C, +10 % bei -10 °C, +22 % bei -20 °C und +34 % bei -30 °C. Ab 0 °C ändert sich dadurch nichts.
-- Der Enhancementfaktor von 1.0047 entfällt. Alle Werte sinken dadurch um 0.47 %.
+- Der Enhancementfaktor 1.0047 steckt nicht mehr in der Kennlinie, sondern in den Funktionsblöcken. Die Kennlinien liefern dadurch 0.47 % tiefere Werte; die Ergebnisse der Funktionsblöcke bleiben über 0 °C gleich.
 - Ein fehlerhafter Stützpunkt bei 30.5 °C wurde korrigiert; er lag rund 22 % zu tief.
 - Die Kennlinie reicht neu bis 69.0 °C statt 68.9 °C und ist über den gesamten Bereich gleich genau. Der Abschnitt mit reduzierter Genauigkeit zwischen -30 °C und -20 °C entfällt.
 
